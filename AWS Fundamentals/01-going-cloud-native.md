@@ -42,6 +42,15 @@ Virtual Private Cloud (VPC) structure
 ## Storage
 
 Services
-- S3: object-level storage
-- RDS: block-level storage
-- [EFS](https://aws.amazon.com/ebs/?ebs-whats-new.sort-by=item.additionalFields.postDateTime&ebs-whats-new.sort-order=desc)
+- **S3**: object-level storage (store three copies of data redundantly across facilities in the region selected)
+- **RDS**: block-level storage
+- [EBS](https://aws.amazon.com/ebs/?ebs-whats-new.sort-by=item.additionalFields.postDateTime&ebs-whats-new.sort-order=desc) only attached to one EC2 at a time
+- EFS: elastic file system,regionally distributed, automatictly attached to multiple EC2 instances
+
+S3 Bucket
+- repository for objects
+- has url
+- over HTTP/HTTPS
+- private by default
+- 1 byte to 5T per object (that's huge!!!)
+- overall size is not limited
