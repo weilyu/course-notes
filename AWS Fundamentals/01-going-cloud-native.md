@@ -54,3 +54,21 @@ S3 Bucket
 - private by default
 - 1 byte to 5T per object (that's huge!!!)
 - overall size is not limited
+
+## Database
+
+Services
+- RDS: Amazon Relational Database Service, has different flavours (MySQL, Oracle etc)
+- DynamoDB
+
+RDS
+- Options: Aurora, MySQL, MariaDB, PostgreSQL, Oracle, MSSQL
+- Use case:
+  - production: multi-AZ
+  - Dev/Test: one AZ
+
+DynamoDB
+- Do not need to define capacity needed (CPU, memory etc)
+- Start small, scale as needed (automatically)
+- Synchronously replicates data in 3 AZs
+- handle 10T requests/day, support peak of 20M requests/second
