@@ -101,3 +101,18 @@ Auto-scaling group
 - Monitor the health of running instances
 - Replace impaired instances automatically
 - Balance capacity across Availability Zones
+
+## Security
+
+- AWS responsibility: Security of the Cloud
+- Customer responsibility: Security in the Cloud
+
+![](https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg)
+
+## Cost management
+
+Services
+- AWS Pricing Calculator
+- AWS Cost Explorer
+- AWS Trusted Advisor: help you reduce costs, increase performance, and improve security
+- AWS Budget
