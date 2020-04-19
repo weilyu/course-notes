@@ -1,8 +1,6 @@
 # Course 2: Addressing Security Risks
 
-## IAM
-
-AWS Organizations
+## AWS Organizations
 - Automate account creation and management
 - Create groups of accounts to reflect business needs
 - Govern access to AWS services resources region by policies
@@ -18,3 +16,20 @@ Creating new organizations
 - Test new and modified policies
 - Use the APIs and AWS CloudFormation
 
+## Services
+- IAM
+  - Manage users, groups and permission to resources
+  - Policies
+    - AWS managed policy
+    - Customer managed policy
+    - Inline policy
+- AWS Single Sign-On (SSO)
+  - Centrally manage access permissions to AWS accounts
+  - Create users in AWS SSO or connect to Microsoft AD DS or Azure AD to identity system
+  - Access accounts and applications from one place
+- Amazon Cognito
+  - user sign-up
+  - sign-in
+  - access control
+  - support social identity providers like Facebook, Google etc
+- AWS Directory Service
