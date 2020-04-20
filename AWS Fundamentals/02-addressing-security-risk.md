@@ -33,3 +33,20 @@ Creating new organizations
   - access control
   - support social identity providers like Facebook, Google etc
 - AWS Directory Service
+
+## Network
+- VPC: Virutal Private Cloud
+- Route tables
+  - routes determine where network traffic is directed
+- AWS Direct Connect
+  - establish private connectivity between AWS and other network enviroments directly
+
+## Auditing
+- Detective Control
+- CloudTrail
+- AWS Config
+- Amazon Inspector
+- Amazon Macie
+- Trust Advisor
+- Amazon GuardDuty
+- Security Hub
