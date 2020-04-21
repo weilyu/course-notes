@@ -50,3 +50,22 @@ Creating new organizations
 - Trust Advisor
 - Amazon GuardDuty
 - Security Hub
+
+## Data types
+
+- object
+  - Amazon Simple Storage Service (S3)
+- Database
+  - Amazon RDS
+  - Amazon Timestream
+  - Quantum Ledger Database
+  - Neptune
+- EC2 data
+  - Amazon Elastic Block Store
+  - Amazon Elastic File System
+- Data warehouse
+  - Amazon Redshift
+  - Amazon Athena
+- Data transfer
+  - AWS Snowball
+  - Snowmobile
